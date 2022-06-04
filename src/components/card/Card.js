@@ -27,8 +27,8 @@ function Card({ head, total, target, child }) {
         </TopWrap>
         <Slug />
         <TextWrapper>
-          <div>Total Sales - {total} Crore</div>
-          <div>Target Sales - {target} Crore</div>
+          <text>Total Sales - {total} Crore</text>
+          <text>Target Sales - {target} Crore</text>
         </TextWrapper>
         <ProgressBar done={completed} />
       </CardWrapper>
