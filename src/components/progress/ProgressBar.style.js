@@ -6,11 +6,19 @@ const ProgressBarWrapper = styled.div`
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  height: 15px;
-  width: 100px;
+  height: 7px;
+  width: 125px;
   .progress-done {
-    background: linear-gradient(to left, lightgreen, lightgreen);
-    box-shadow: 0 3px 3px -5px green, 0 2px 5px green;
+    background: ${(props) =>
+      props.done <= 33
+        ? "linear-gradient(to left, red, red)"
+        : props.done <= 66
+        ? "linear-gradient(to left, yellow, yellow)"
+        : "linear-gradient(to left, lightgreen, lightgreen)"};
+    box-shadow: 0 3px 3px -5px green,
+      0 2px 5px
+        ${(props) =>
+          props.done <= 33 ? "red" : props.done <= 66 ? "#fdee00" : "green"};
     border-radius: 20px;
     color: black;
     display: flex;

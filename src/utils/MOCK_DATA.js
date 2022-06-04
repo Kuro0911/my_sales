@@ -32,17 +32,12 @@ export const MOCK_DATA = `{
             "child":[
                 {
                     "name":"Godown  1",
-                    "total": 11111,
+                    "total": 29667,
                     "target": 33334
                 },
                 {
                     "name":"Godown  2",
-                    "total": 11111,
-                    "target": 33334
-                },
-                {
-                    "name":"Godown  3",
-                    "total": 11109,
+                    "total": 25667,
                     "target": 33334
                 }
             ]
@@ -54,17 +49,17 @@ export const MOCK_DATA = `{
             "child":[
                 {
                     "name":"Godown  1",
-                    "total": 11111,
+                    "total": 16111,
                     "target": 33334
                 },
                 {
                     "name":"Godown  2",
-                    "total": 11111,
+                    "total": 16111,
                     "target": 33334
                 },
                 {
                     "name":"Godown  3",
-                    "total": 11109,
+                    "total": 16109,
                     "target": 33334
                 }
             ]

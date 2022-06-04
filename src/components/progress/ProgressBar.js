@@ -13,7 +13,7 @@ function ProgressBar({ done }) {
   }, 1000);
 
   return (
-    <ProgressBarWrapper>
+    <ProgressBarWrapper done={done}>
       <div className="progress-done" style={style}></div>
     </ProgressBarWrapper>
   );
