@@ -7,7 +7,7 @@ const ProgressBarWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   height: 15px;
-  width: 150px;
+  width: 250px;
   .progress-done {
     background: linear-gradient(to left, lightgreen, lightgreen);
     box-shadow: 0 3px 3px -5px green, 0 2px 5px green;
